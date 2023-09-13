@@ -11,7 +11,7 @@ const CounterApp = ({ value }) => {
         setCounter(counter + 1)
     }
     function resetNumber() {
-        setCounter(0)
+        setCounter(value)
     }
     function disminutionNumber() {
         setCounter(counter - 1)
